@@ -1,0 +1,173 @@
+body{
+ background-color:seashell;
+ font-family: "Poppins", sans-serif;
+
+}
+/* for the currency logo */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'opsz' 24
+}
+
+#currencylogo{
+    font-size:medium;
+    padding: 3px 3px 3px 3px;
+    
+}
+#instruction{
+    color: rgb(7, 102, 173);
+    text-align: center;
+    text-rendering: optimizeSpeed;
+}
+h1{
+    text-align: center;
+    color:rgb(108, 34, 166)
+}
+
+/* button customization */
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+   
+  }
+
+.toggle-btn.active {
+    background-color: #00a8ff;
+}
+
+.toggle-btn {
+    background-color:rgb(120, 179, 206);
+    border: 1px solid;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.toggle-btn:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .toggle-btn:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .toggle-btn.active {
+    background-color:burlywood;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  /* containers style */
+
+.convert-container{ 
+   display: flex;
+   border-radius: 15px;
+   padding: 2rem;
+   background-color: rgb(100, 130, 173);
+   backdrop-filter: blur(10px);  
+}
+
+#From{
+    padding: 3px 3px 3px 3px;
+    padding-right: 10px;
+}
+
+::placeholder {
+    color:white;
+    opacity: 1; /* Firefox */
+  }
+
+input{
+    /* padding: 5px 5px 5px 5px; */
+    /* padding-right:20px; */
+    background-color:rgb(100, 130, 173);
+    border-color: white;
+    border-style:groove;
+    border-radius: 5px;
+    
+}
+
+#from-currency{
+    float: left;
+    background-color: rgb(100, 130, 173);
+    color:white;
+    padding: 2px 2px 2px 2px;
+    border-color: azure;
+    border-style:solid;
+    border-radius: 15px;
+}
+
+#to{
+    display: block;
+    padding: 3px 3px 3px 3px;
+    padding-right: 10px;
+}
+
+#to-currency{
+    float: left;
+    background-color: rgb(100, 130, 173);
+    color:white;
+    padding: 2px 2px 2px 2px;
+    border-color: azure;
+    border-style:solid;
+    border-radius: 15px;
+}
+
+
+
+
+#convert-btn{
+    position:relative;
+    left:10px;
+    bottom: 5px;
+    /* background-color: rgb(36, 54, 66); */
+    background-color:rgb(245, 245, 245);
+    color:black;
+    padding: 5px 5px 5px 5px;
+    border-color:white;
+    border-style:solid;
+    border-radius: 15px;
+    text-decoration:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+#result{
+    /* background-color:chocolate; */
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+
+
+/* responsive code  under coding*/
+
+/* @media (max-width: 480px) {
+  #slogan{
+    font-size: small;
+  }
+  #instruction{
+    font-size:smaller;
+  }
+
+ #amount{
+    width:30px;
+    bottom: 35px;
+ }
+
+ #to{
+    margin-left:;
+ }
+
+} */
+  
